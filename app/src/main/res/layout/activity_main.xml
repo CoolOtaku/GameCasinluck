@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".views_controllers.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.example.gamecasinluck.other_items.SlotMachineItem
+            android:id="@+id/item24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/gray"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClickMenu"
+            android:src="@drawable/round_menu_24"
+            tools:ignore="UsingOnClickInXml" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/view_bg"
+            android:gravity="center"
+            android:minWidth="95dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBetMinus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="3dp"
+                android:background="@drawable/btn_bg"
+                android:src="@drawable/round_remove_18" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-3dp"
+                    android:text="@string/bet"
+                    android:textColor="@color/blue"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnBetPlus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="3dp"
+                android:background="@drawable/btn_bg"
+                android:src="@drawable/round_add_18" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnSpeedFast"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClickSpeedFast"
+            android:src="@drawable/round_fast_forward_24"
+            tools:ignore="UsingOnClickInXml" />
+
+        <ImageButton
+            android:id="@+id/btnSpin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClickSpin"
+            android:src="@drawable/round_restart_alt_44"
+            tools:ignore="UsingOnClickInXml" />
+
+        <ImageButton
+            android:id="@+id/btnSpeedSlow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="onClickSpeedSlow"
+            android:src="@drawable/round_play_arrow_24"
+            tools:ignore="UsingOnClickInXml" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/view_bg"
+            android:gravity="center"
+            android:minWidth="95dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:text="@string/win"
+                android:textColor="@color/blue"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/view_bg"
+            android:gravity="center"
+            android:minWidth="95dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp"
+                android:text="@string/balance"
+                android:textColor="@color/blue"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

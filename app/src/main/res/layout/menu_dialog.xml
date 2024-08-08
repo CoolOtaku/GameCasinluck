@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/alert_dark_frame"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/menu"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="35sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnBuyCoins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/view_bg"
+            android:padding="10dp"
+            android:text="@string/buy_coins"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/view_bg"
+            android:drawableStart="@drawable/round_settings_24"
+            android:drawableEnd="@drawable/round_settings_24"
+            android:padding="10dp"
+            android:text="@string/settings"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/view_bg"
+            android:drawableStart="@android:drawable/ic_delete"
+            android:drawableEnd="@android:drawable/ic_delete"
+            android:padding="10dp"
+            android:text="@string/quit"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/btn_bg"
+        android:src="@android:drawable/ic_delete" />
+
+</FrameLayout>
